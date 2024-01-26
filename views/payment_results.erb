@@ -1,0 +1,17 @@
+<h1> Payment Results </h1>
+
+<dl>
+  <dt> APR </dt>
+  <dd> <%= @formatted_apr %> </dd>
+
+  <dt> Number of Years </dt>
+  <dd> <%= @formatted_years %> </dd>
+
+  <dt> Principal </dt>
+  <dd> <%= @formatted_pv %> </dd>
+
+  <dt> Payment </dt>
+  <dd> <%= @monthly_payment %> </dd>
+</dl>
+
+<a href="/payment/new"> Calculate another payment </a>
